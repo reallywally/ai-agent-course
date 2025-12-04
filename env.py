@@ -15,3 +15,4 @@ def get_env_variable(key: str) -> str:
 
 
 TELEGRAM_BOT_TOKEN = get_env_variable("TELEGRAM_BOT_TOKEN")
+OPENAI_API_KEY = get_env_variable("OPENAI_API_KEY")
