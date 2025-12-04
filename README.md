@@ -6,13 +6,14 @@
 - Hugging Face Learn : <https://huggingface.co/learn/agents-course/unit0/introduction>
 - 네이버 API : <https://developers.naver.com/apps/#/list>
 - open ai 키 발급 : <https://platform.openai.com/api-keys>
+- google ai 키 발급 <https://aistudio.google.com/api-keys>
 
 ## 설치
 
 - nodejs
 - npm install -g n8n@1.111.1
- uv init
-uv sync
-uv python find
-uv add crewai
-uv lock
+- uv init
+- uv sync
+- uv python find
+- uv add crewai
+- uv lock

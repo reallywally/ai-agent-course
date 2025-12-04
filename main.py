@@ -72,7 +72,6 @@ class ChatBot:
         initial_state: AgentState = {"messages": [], "user_query": user_message}
 
         result = self.workflow.invoke(initial_state)
-
         messages = result["messages"]
 
         print(messages)

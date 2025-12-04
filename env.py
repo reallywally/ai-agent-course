@@ -6,6 +6,7 @@ dotenv.load_dotenv()
 
 def get_env_variable(key: str) -> str:
     value = os.getenv(key)
+
     print(value)
     if value is None:
         raise ValueError(
@@ -16,3 +17,4 @@ def get_env_variable(key: str) -> str:
 
 TELEGRAM_BOT_TOKEN = get_env_variable("TELEGRAM_BOT_TOKEN")
 OPENAI_API_KEY = get_env_variable("OPENAI_API_KEY")
+GOOGLE_API_KEY = get_env_variable("GOOGLE_API_KEY")
