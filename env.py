@@ -7,6 +7,7 @@ dotenv.load_dotenv()
 def get_env_variable(key: str) -> str:
     value = os.getenv(key)
 
+
     print(value)
     if value is None:
         raise ValueError(
