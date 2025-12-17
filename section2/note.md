@@ -1,4 +1,4 @@
-# section2
+# note
 
 - n8n과 langgraph를 정말 간단하게 찍먹하고 crewai 설명
 - 그러고나서 툴이랑 메모리 설명
